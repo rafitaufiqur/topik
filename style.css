@@ -1,0 +1,169 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Calibri',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: counrier;
+    color: rgb(5, 5, 5);
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans';
+    color: rgb(2, 2, 2);
+}
+
+h2 {
+    font-family: 'comic sans';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(219, 0, 0);
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background: #FC6736;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #6C22A6;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #FC6736;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0px 10px 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-pink:hover {
+    background: #6C22A6;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+table {
+    width: 100%;
+}
+
+img.bg {
+    height: 600px;
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 204, 0);
+}
+
+.atas {
+    color: rgb(255, 255, 255);
+}
+
+.sklh {
+    font-weight: 500px;
+    font-size: 30px;
+}
+.card{
+    width: 300px;
+    background-color: rgb(192, 230, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.center{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
